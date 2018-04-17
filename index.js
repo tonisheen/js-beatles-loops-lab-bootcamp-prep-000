@@ -1,5 +1,5 @@
 function theBeatlesPlay(artists, instruments) {
-  matched = [];
+  var matched = [];
   for (let i = 0; i < artists.length; i++){
     matched.push(`${artists[i]} plays ${instruments[i]}`);
   }
